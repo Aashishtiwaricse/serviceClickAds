@@ -40,7 +40,7 @@ const Header = () => {
   const [allServices, setAllServices] = useState<Service[]>([])
   const [servicesLoaded, setServicesLoaded] = useState(false)
   const searchRef = useRef<HTMLDivElement>(null)
-  const baseUrl = import.meta.env.VITE_API_URL || "https://admin.sarvoclub.com"
+  const baseUrl = import.meta.env.VITE_API_URL || "https://www.admin.clickads.in/"
   const location = useLocation()
   const navigate = useNavigate()
 
