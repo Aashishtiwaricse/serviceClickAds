@@ -268,7 +268,7 @@ const Header = () => {
               </div>
               <div className="flex flex-col">
                 <span className="font-bold text-xl lg:text-2xl bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
-                  Workwaale
+                  ClickADs
                 </span>
                 <span className="text-xs text-gray-500 hidden lg:block">Premium Services</span>
               </div>

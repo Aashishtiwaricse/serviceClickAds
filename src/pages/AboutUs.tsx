@@ -11,7 +11,7 @@ const AboutUs = () => {
     const fetchPageContent = async () => {
       try {
         setIsLoading(true);
-        const response = await fetch("https://admin.workwaale.in/business-page/about-us");
+        const response = await fetch("https://www.admin.clickads.in/business-page/about-us");
         if (!response.ok) throw new Error("Failed to fetch");
         
         const htmlString = await response.text();
@@ -65,7 +65,7 @@ const AboutUs = () => {
           margin-bottom: 1.5rem;
         }
 
-        /* Highlight the brand name 'WorkWaale' usually inside strong tags */
+        /* Highlight the brand name 'Clickads' usually inside strong tags */
         .extracted-html strong {
           color: #2563eb; /* Blue-600 */
         }

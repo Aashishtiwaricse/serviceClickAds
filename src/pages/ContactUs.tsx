@@ -11,7 +11,7 @@ const ContactUs = () => {
     const fetchContactContent = async () => {
       try {
         setIsLoading(true);
-        const response = await fetch("https://admin.workwaale.in/page/contact-us");
+        const response = await fetch("https://www.admin.clickads.in/page/contact-us");
         
         if (!response.ok) {
           throw new Error(`Failed to fetch: ${response.statusText}`);

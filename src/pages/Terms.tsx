@@ -12,7 +12,7 @@ const TermsAndConditions = () => {
       try {
         setIsLoading(true);
         // 1. Fetch the actual Terms & Conditions page
-        const response = await fetch("https://admin.workwaale.in/business-page/terms-and-conditions");
+        const response = await fetch("https://www.admin.clickads.in/business-page/terms-and-conditions");
         
         if (!response.ok) {
           throw new Error(`Failed to fetch: ${response.statusText}`);

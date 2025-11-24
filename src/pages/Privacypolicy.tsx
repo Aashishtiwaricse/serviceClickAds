@@ -12,7 +12,7 @@ const PrivacyPolicy = () => {
       try {
         setIsLoading(true);
         // 1. Fetch the Privacy Policy page
-        const response = await fetch("https://admin.workwaale.in/business-page/privacy-policy");
+        const response = await fetch("https://www.admin.clickads.in/business-page/privacy-policy");
         
         if (!response.ok) {
           throw new Error(`Failed to fetch: ${response.statusText}`);
